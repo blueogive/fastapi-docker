@@ -1,0 +1,94 @@
+# NB: The one package with an explicit version specification in this file is
+# CPython itself.
+# To remove the version specifications in the packages below use this regex:
+# Search: - ([A-z0-9_\-]{2,})=[A-z0-9_\-\.]{2,}?=[A-z0-9_\-]*
+# Replace: - $1
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex
+  - _openmp_mutex
+  - beautifulsoup4
+  - brotlipy
+  - bzip2
+  - ca-certificates
+  - certifi
+  - cffi
+  - chardet
+  - conda
+  - conda-build
+  - conda-package-handling
+  - cryptography
+  - fastapi
+  - filelock
+  - glob2
+  - h11
+  - icu
+  - idna
+  - jinja2
+  - ld_impl_linux-64
+  - libarchive
+  - libedit
+  - libffi
+  - libgcc-ng
+  - libgomp
+  - liblief
+  - libstdcxx-ng
+  - libxml2
+  - lz4-c
+  - markupsafe
+  - ncurses
+  - numpy
+  - openssl
+  - patchelf
+  - pandas
+  - pip
+  - pkginfo
+  - psutil
+  - py-lief
+  - pycosat
+  - pycparser
+  - pydantic
+  - pylint
+  - pymssql
+  - pyodbc
+  - pyopenssl
+  - pysocks
+  - pytest
+  - python=3.8.8
+  - python-dotenv
+  - python-libarchive-c
+  - python_abi
+  - pytz
+  - pyyaml
+  - readline
+  - requests
+  - ripgrep
+  - ruamel_yaml
+  - scikit-learn
+  - setuptools
+  - six
+  - soupsieve
+  - sqlalchemy
+  - sqlite
+  - starlette
+  - tk
+  - tqdm
+  - urllib3
+  - uvicorn
+  - wheel
+  - xz
+  - yaml
+  - zlib
+  - zstd
+  - pip:
+    - format-sql
+    - jellyfish
+    - jinjasql
+    - pre-commit
+    - ptvsd
+    - pynndescent
+    - umap-learn
+prefix: /opt/conda
